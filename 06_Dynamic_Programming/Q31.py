@@ -35,6 +35,10 @@ n * m 크기의 금광이 있습니ㅏㄷ.
 16
 '''
 
+'''
+점화식: dp[i][j] = array[i][j] + max(dp[i - 1][j - 1], dp[i][j - 1], dp[i + 1][j - 1])
+'''
+
 # 테스트 케이스(Test Case) 입력
 for tc in range(int(input())):
     # 금광 정보 입력
